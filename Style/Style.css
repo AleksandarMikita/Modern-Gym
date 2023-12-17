@@ -1,0 +1,458 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/modern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+/* Modern GYM */
+
+.google-map{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.navbar-logo .logo{
+    width: 100px;
+}
+nav .nav-menu{
+    display: flex;
+    list-style: none;
+}
+nav .nav-menu li a{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.nav-menu .nav-item a:hover{
+    background-color: black;
+    color: bisque;
+    transition: 0.3s ease;
+}
+.text h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.text h2{
+    text-align: center;
+    color: darkred;
+}
+.form-slike{
+    justify-content: center;
+    display: flex;
+}
+.form-slike .slika{
+    border-radius: 25%;
+    display: inline;
+    width: 450px;
+    padding: 0px 15px;
+}
+.Pocetna a{
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  margin: auto;
+}
+/* Kontakt */
+  .naslov-kontakt h1{
+      text-align: center;
+      color: white;
+      border: 1px solid black;
+      background-color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .naslov-kontakt h2{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .kontakt-ikone{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .kontakt-ikone i{
+    margin: 0px 15px;
+  }
+  .form-left p{
+      text-align: center;
+      font-size: 20px;
+  }
+  .input-podaci{
+    width: 300px;
+    margin: 15px auto;
+  }
+  .input-podaci input{
+      width: 280px;
+      padding: 10px;
+      border: 2px solid #123740;
+      border-radius: 10px;
+  }
+  .input-podaci textarea{
+      width: 100%;
+      height: 80px;
+      border: 2px solid #123740;
+      border-radius: 10px;
+  }
+  .submit-button{
+      margin: auto;
+      display: block;
+      padding: 10px 15px;
+      border-radius: 25px;
+      color: #123740;
+      border: 2px solid #123740;
+      background-color: white;
+      font-weight: bold;
+      font-size: 17px;
+  }
+  .submit-button:hover{
+      background-color: orange;
+  }
+  .input-podaci p{
+      align-items: center;
+      text-align: center;
+      color: black;
+  }
+.form-left{
+    background-image: url('../Images/Moderngymlogo.PNG');
+    background-size: cover;
+
+}
+.contact-form{
+    width: 1000px;
+    height: 550px;
+    margin: 100px auto;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-left, .form-right{
+    width: 50%;
+    height: 100%;
+}
+.form-right{
+    background-image: url("../Images/moderngymimg.PNG");
+    background-size: cover;
+}
+.Pocetna-kontakt{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Pocetna-kontakt a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+}
+.Pocetna-kontakt a:hover{
+    border-radius: 20px;
+    background-color: black;
+    color: burlywood;
+    transition: 0.3s ease;
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+
+}
+
+.footer-social-icon{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-social-icon i{
+    font-size: 30px;
+    margin: 0px 15px;
+    color: white;
+}
+.footer-navbar a{
+    color: white;
+    text-decoration: none;
+}
+/* O nama */
+
+.o-nama h1{
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+.o-nama p{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.o-nama .O-nama-img img{
+    border-radius: 25%;
+    display: flex;
+    margin: auto;
+}
+.table .lista {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: khaki;
+}
+
+/* Usluge */
+.usluge {
+    margin: 0px 15px;
+}
+.usluge-img{
+    width: 575px;
+    display: flex;
+    padding: 10px;
+}
+.tabela{
+    border: 1px solid black;
+    width: 800px;
+    height: 300px;
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tabela td{
+    border: 1px solid black;
+}
+.usluge-naslov h1{
+   font-size: 40px;
+   font-family: 'Times New Roman', Times, serif;
+   color: darkred;
+   align-items: center;
+   text-align: center;
+}
+
+/* Proizvodi */
+
+.proizvodi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protein img{
+    width: 500px;
+    border-radius: 15%;
+}
+.top-panel h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #111111;
+    text-align: center;
+}
+.tabela-proizvodi{
+    border: 1px solid black;
+    width: 700px;
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tabela-proizvodi td{
+    border: 1px solid black;
+    text-align: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .contact-form{
+        display: block;
+        margin: auto;
+        width: 70%;
+        border-radius: 25px;
+        background-image: url('../img/most.jpg');
+        background-size: cover;
+    }
+
+    .form-left{
+        width: 100%;
+    }
+
+    .form-right{
+        display: none;
+    }
+
+    .input-podaci p{
+        color: white;
+    }
+
+
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    html, body{
+        width:100%;
+        overflow-x:hidden;
+    }
+    .form-slike{
+        display: block;
+        margin: 10px 0px;
+    }
+    .form-slike .slika {
+        width: 100%;
+        height: 200px;
+        margin: 10px 0px;
+        display: block;
+    }
+
+    .navbar,
+    .nav-menu {
+            display: block;
+            padding: 0px;
+            justify-content: center;
+        }
+        .nav-menu{
+            display: block;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        }
+
+    .navbar-logo .logo {
+        width: 50px;
+        margin: auto;
+        display: block;
+    }
+
+    .nav-menu .nav-item {
+        font-size: 15px;
+    }
+
+    .nav-menu .nav-item a {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .contact-form{
+        width: 100%;
+        margin: 10px 0px;
+        background-image: url('../Images/Moderngymlogo.PNG');
+        background-size: cover;
+    }
+
+    .form-right{
+        display: none;
+    }
+
+    .form-left{
+        width: 100%;
+    }
+
+    .input-podaci p{
+        color: white;
+    }
+    .naslov-kontakt {
+        justify-content: center;
+        display: flex;
+    }
+
+    .naslov-kontakt h1 {
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+    .unos-input{
+        align-items: center;
+    }
+
+    .naslov-kontakt h2 {
+        display: none;
+    }
+
+    .contact-form .form-right {
+        display: none;
+    }
+    .input-podaci p {
+        color: black;
+    }
+
+    .O-nama-img img{
+        width: 100%;
+    }
+    .tabela{
+        width:100%;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+        font-weight: normal;
+    }
+    .usluge{
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .usluge img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Pocetna-kontakt a{
+        justify-content: center;
+    }
+
+    .proizvodi{
+        display: block;
+    }
+    .protein img{
+        width: 100%;
+    }
+    .tabela-proizvodi{
+        width:100%;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+        font-weight: normal;
+    }
+}
+.navbar-logo .logo{
+    animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
