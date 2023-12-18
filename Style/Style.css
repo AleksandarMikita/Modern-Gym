@@ -133,11 +133,7 @@ nav .nav-menu li a{
 .form-img img{
     max-width: 100%;
 }
-  .input-podaci{
-    width: 300px;
-    margin: 15px auto;
-  }
-  .input-podaci textarea{
+  .input-podaci textarea, input{
     outline: none;
     margin-bottom: 15px;
     font-stretch: 16px;
