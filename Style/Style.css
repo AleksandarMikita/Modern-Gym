@@ -83,6 +83,8 @@ nav .nav-menu li a{
       min-height: 100vh;
       z-index: 0;
       background-image:url('../Images/modern.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
       padding: 30px;
       justify-content: center;
       display: grid;
@@ -97,7 +99,7 @@ nav .nav-menu li a{
      text-align: center;
      font-size: 40px;
      font-weight: 400;
-     color: white;
+     color: black;
      font-family: 'poppins';
  }
 .contact-form h2{
