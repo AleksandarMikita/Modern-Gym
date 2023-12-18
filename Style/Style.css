@@ -344,7 +344,7 @@ nav .nav-menu li a{
         font-size: 14px;
     }
     .contact-form .main-kontakt{
-        flext-direction: column;
+        flex-direction: column;
     }
     .contact-form .unos-input{
         margin-top: 30px;
