@@ -219,8 +219,8 @@ nav .nav-menu li a{
 .footer{
     margin-top: 50px;
     width: 100%;
-    height: 200px;
-    background-color: #111111;
+    height: 100px;
+    background-color: orange;
 
 }
 .footer-navbar a{
