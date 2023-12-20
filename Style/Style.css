@@ -52,6 +52,7 @@ nav .nav-menu li a{
 .navbar ul li ul{
     position: relative;
     display: block;
+    width: 150;
     background: orange;
     transition: 0.5s;
     opacity: 0;
