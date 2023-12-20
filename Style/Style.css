@@ -353,6 +353,9 @@ nav .nav-menu li a{
         width: 100%;
         text-align: center;
         }
+    .navbar ul li ul {
+        margin-left: 20px;
+    }
 
     .navbar-logo .logo {
         width: 50px;
