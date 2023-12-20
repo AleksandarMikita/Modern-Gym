@@ -60,7 +60,6 @@ nav .nav-menu li a{
     list-style-type: none;
     align-items: center;
     overflow: hidden;
-    margin-left: 20px;
 }
 .navbar ul li ul li a{
     color: white;
@@ -68,6 +67,7 @@ nav .nav-menu li a{
     text-align: left;
     list-style-type: none;
     font-size: 15px;
+    margin-right: 20px;
 }
 .navbar ul li:hover ul{
     opacity: 1;
