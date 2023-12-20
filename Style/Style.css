@@ -51,7 +51,7 @@ nav .nav-menu li a{
 }
 .navbar ul li ul{
     position: relative;
-    top: 45px;
+    top: 25px;
     left: 0;
     display: block;
     background: black;
@@ -59,8 +59,13 @@ nav .nav-menu li a{
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
-    color: white;
     list-style: none;
+}
+.navbar ul li ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: justify;
 }
 .navbar ul li:hover ul{
     opacity: 1;
