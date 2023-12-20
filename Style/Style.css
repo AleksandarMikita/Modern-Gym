@@ -52,7 +52,7 @@ nav .nav-menu li a{
 .navbar ul li ul{
     position: static;
     display: block;
-    width: 200px;
+    width: 100px;
     background: orange;
     transition: 0.5s;
     opacity: 0;
@@ -60,12 +60,14 @@ nav .nav-menu li a{
     list-style-type: none;
     align-items: center;
     overflow: hidden;
+    margin-right: 20px;
 }
 .navbar ul li ul li a{
     color: white;
     text-decoration: none;
     text-align: left;
     list-style-type: none;
+    font-size: 20px;
 }
 .navbar ul li:hover ul{
     opacity: 1;
