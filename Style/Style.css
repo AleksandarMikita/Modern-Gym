@@ -59,13 +59,13 @@ nav .nav-menu li a{
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
-    list-style: none;
+    list-style-type: none;
 }
 .navbar ul li ul li a{
     color: white;
     text-decoration: none;
-    list-style: none;
     text-align: justify;
+    list-style-type: none;
 }
 .navbar ul li:hover ul{
     opacity: 1;
