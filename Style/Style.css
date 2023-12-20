@@ -354,7 +354,8 @@ nav .nav-menu li a{
         text-align: center;
         }
     .navbar ul li ul {
-        margin-left: 20px;
+        margin-right: 0px;
+        position: absolute;
     }
 
     .navbar-logo .logo {
