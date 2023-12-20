@@ -49,6 +49,21 @@ nav .nav-menu li a{
     color: bisque;
     transition: 0.3s ease;
 }
+.navbar ul li ul{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    display: block;
+    background: black;
+    width: 200px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
 .text h1{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
