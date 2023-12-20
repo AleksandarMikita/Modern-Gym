@@ -50,7 +50,7 @@ nav .nav-menu li a{
     transition: 0.3s ease;
 }
 .navbar ul li ul{
-    position: absolute;
+    position: inline-block;
     top: 45px;
     left: 0;
     display: block;
