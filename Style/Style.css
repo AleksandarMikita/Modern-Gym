@@ -33,7 +33,7 @@ nav .nav-menu{
     list-style: none;
 }
 nav .nav-menu li a{
-    display: relative;
+    display: inline-block;
     margin-left: 20px;
     margin-right: 5px;
     padding: 15px;
@@ -50,7 +50,7 @@ nav .nav-menu li a{
     transition: 0.3s ease;
 }
 .navbar ul li ul{
-    position: absolute;
+    position: relative;
     top: 45px;
     left: 0;
     display: block;
