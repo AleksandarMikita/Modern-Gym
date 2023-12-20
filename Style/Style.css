@@ -223,18 +223,6 @@ nav .nav-menu li a{
     background-color: #111111;
 
 }
-
-.footer-social-icon{
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.footer-social-icon i{
-    font-size: 30px;
-    margin: 0px 15px;
-    color: white;
-}
 .footer-navbar a{
     color: white;
     text-decoration: none;
