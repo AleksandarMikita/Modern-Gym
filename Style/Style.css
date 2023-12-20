@@ -52,6 +52,7 @@ nav .nav-menu li a{
 .navbar ul li ul{
     position: static;
     display: block;
+    margin-left: -20px;
     width: 150px;
     background: orange;
     transition: 0.5s;
@@ -59,7 +60,7 @@ nav .nav-menu li a{
     visibility: hidden;
     list-style-type: none;
     align-items: center;
-    overflow: hidden;
+    border-radius: 10px;
 }
 .navbar ul li ul li a{
     color: white;
