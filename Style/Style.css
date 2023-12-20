@@ -54,7 +54,6 @@ nav .nav-menu li a{
     left: 0;
     display: block;
     background: orange;
-    width: 200px;
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
