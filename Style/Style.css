@@ -51,7 +51,6 @@ nav .nav-menu li a{
 }
 .navbar ul li ul{
     position: relative;
-    left: 0;
     display: block;
     background: orange;
     transition: 0.5s;
