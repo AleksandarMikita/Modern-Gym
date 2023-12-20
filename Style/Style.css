@@ -59,6 +59,7 @@ nav .nav-menu li a{
     visibility: hidden;
     list-style-type: none;
     align-items: center;
+    overflow: hidden;
 }
 .navbar ul li ul li a{
     color: white;
